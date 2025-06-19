@@ -3,7 +3,8 @@
 - Using WireShark to snoop the data being exchanged. 4 packets are exchanged when a button is pressed (perhaps press event and release event?), 2 packets are exchanged when a dial moves by a single increment.
 - In the process of decoding/determining the "handshake" data exchanged between the computer and the tourbox. Perhaps that will result in some responses back from the TourBox if sent from Linux.
 
-It seems that when the TourBox windows driver starts and establishes contact with the TourBox, it sends two packets to the TourBox. Here's the data from those two packets:
+It seems that when the TourBox Console starts and establishes contact with the TourBox, it sends two packets to the TourBox. These packets are not sent when the TourBox Console is not open.
+Here's the data from those two packets (this was from a single run, not yet known whether changing settings in the TourBox console changes the packet data):
 
 **Packet 1**
 ```
@@ -23,4 +24,52 @@ It seems that when the TourBox windows driver starts and establishes contact wit
 0010   01 03 00 13 00 02 03 00 00 00 00
 ```
 
-More updates coming soon as I make more progress.
+### INFO
+When the TourBox is connnected to the computer, pressing a button sends a packet (28 bytes) to the computer. The computer then responds with a 27 byte packet (always the same, regardless of the button
+pressed). Releasing the button does the same. Rotating a dial clockwise or counterclockwise does the same.
+
+The only differences in packets for different buttons or dials is the final bit of the packet sent from the TourBox to the computer.
+
+Below is the data from the TourBox to the computer when a button is pressed. Note the final byte, which I've marked with ZZ (as that is not a valid hexadecimal value). That bit depends on which button/dial is pressed/moved.
+
+```
+0000    1b 00 10 90 3d 27 03 e7   ff ff 00 00 00 00 09 00
+0010    01 03 00 19 00 82 03 01   00 00 00 ZZ
+```
+
+Additionally, here is the data sent from the computer back to the TourBox (likely a confirmation that the signal was received):
+
+```
+0000    1b 00 10 90 3d 27 03 d7   ff ff 00 00 00 00 09 00
+0010    00 03 00 19 00 82 03 00   00 00 00
+```
+
+Below is a chart of all of the final bytes sent in the above payload for each button. (In other words, to find the message for a given button, replace the `ZZ` above with the corresponding payload from the chart below.)
+
+### "IN payload" from each button to computer -- final byte of payload, identified via WireShark
+
+| Button | "Pressed" payload | "Released" payload |
+| ------ | ----------------- | ------------------ |
+|  Side  |       `01`        |        `81`        |
+| Scroll |       `0a`        |        `8a`        |
+|  Top   |       `02`        |        `82`        |
+|   C1   |       `22`        |        `a2`        |
+|   C2   |       `23`        |        `a3`        |
+|  Tall  |       `00`        |        `80`        |
+| Short  |       `03`        |        `83`        |
+|   Up   |       `10`        |        `90`        |
+|  Down  |       `11`        |        `91`        |
+|  Left  |       `12`        |        `92`        |
+| Right  |       `13`        |        `93`        |
+|  Knob  |       `77`        |        `b7`        |
+|  Tour  |       `2a`        |        `aa`        |
+|  Dial  |       `38`        |        `b8`        |
+
+### "IN payload" from each dial to computer -- final byte of payload, identified via WireShark
+
+|  Knob  | Clockwise/up payload | Counterclockwise/down payload |
+| ------ | -------------------- | ----------------------------- |
+| Scroll |         `49`         |             `09`              |
+|  Knob  |         `44`         |             `04`              |
+|  Dial  |         `4f`         |             `0f`              |
+
