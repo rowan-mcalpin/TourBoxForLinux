@@ -1,4 +1,4 @@
-## 6/19/2025 - Began Reverse Engineering Communication Protocols
+# 6/19/2025 - Began Reverse Engineering Communication Protocols
 - TourBox seems to communicate using serial; shows up on my windows desktop as COM3 and on Linux as ACM0.
 - Using WireShark to snoop the data being exchanged. 4 packets are exchanged when a button is pressed (perhaps press event and release event?), 2 packets are exchanged when a dial moves by a single increment.
 - In the process of decoding/determining the "handshake" data exchanged between the computer and the tourbox. Perhaps that will result in some responses back from the TourBox if sent from Linux.
@@ -46,7 +46,7 @@ Additionally, here is the data sent from the computer back to the TourBox (likel
 
 Below is a chart of all of the final bytes sent in the above payload for each button. (In other words, to find the message for a given button, replace the `ZZ` above with the corresponding payload from the chart below.)
 
-### "IN payload" from each button to computer -- final byte of payload, identified via WireShark
+#### "IN payload" from each button to computer -- final byte of payload, identified via WireShark
 
 | Button | "Pressed" payload | "Released" payload |
 | ------ | ----------------- | ------------------ |
@@ -65,7 +65,7 @@ Below is a chart of all of the final bytes sent in the above payload for each bu
 |  Tour  |       `2a`        |        `aa`        |
 |  Dial  |       `38`        |        `b8`        |
 
-### "IN payload" from each dial to computer -- final byte of payload, identified via WireShark
+#### "IN payload" from each dial to computer -- final byte of payload, identified via WireShark
 
 |  Knob  | Clockwise/up payload | Counterclockwise/down payload |
 | ------ | -------------------- | ----------------------------- |
@@ -73,3 +73,6 @@ Below is a chart of all of the final bytes sent in the above payload for each bu
 |  Knob  |         `44`         |             `04`              |
 |  Dial  |         `4f`         |             `0f`              |
 
+### Initialization 
+
+The driver sends 50 packets to the TourBox when it first starts and establishes contact with the device. [This file](https://drive.google.com/file/d/10ddHfv6FbuVyspGmnPC3YI9mbxwCd4l2/view?usp=sharing) has the data from all 50 packets sent from the computer to the device. That's not all that's needed, yet, though, because some packets had different endpoints. Just logging now so I don't forget. 
