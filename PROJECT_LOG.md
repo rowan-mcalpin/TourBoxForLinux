@@ -75,4 +75,4 @@ Below is a chart of all of the final bytes sent in the above payload for each bu
 
 ### Initialization 
 
-The driver sends 50 packets to the TourBox when it first starts and establishes contact with the device. [This file](https://drive.google.com/file/d/10ddHfv6FbuVyspGmnPC3YI9mbxwCd4l2/view?usp=sharing) has the data from all 50 packets sent from the computer to the device. That's not all that's needed, yet, though, because some packets had different endpoints. Just logging now so I don't forget. 
+The driver sends 50 packets to the TourBox when it first starts and establishes contact with the device. [This file](https://drive.google.com/file/d/1cOU9LK2oY-8nWSvNlnA_YSq3Auv76m3u/view?usp=sharing) has the data from all 50 packets sent from the computer to the device. That's not all that's needed, yet, though, because some packets had different endpoints. Just logging now so I don't forget. 
