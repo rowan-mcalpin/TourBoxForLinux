@@ -1,0 +1,1628 @@
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+     69 0.799496       3.17.2                host                  USBCOM   28     URB_BULK in                                                     17             0x82             0x03
+
+Frame 69: 28 bytes on wire (224 bits), 28 bytes captured (224 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.17.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 1
+    [bInterfaceClass: CDC-Data (0x0a)]
+USB Communications and CDC Control
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  01 03 00 11 00 82 03 01 00 00 00 01               ............
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+     70 0.799587       host                  3.17.2                USB      27     URB_BULK in                                                     17             0x82             0x03
+
+Frame 70: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.17.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 71]
+    [bInterfaceClass: CDC-Data (0x0a)]
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  00 03 00 11 00 82 03 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+     71 0.939219       3.17.2                host                  USBCOM   28     URB_BULK in                                                     17             0x82             0x03
+
+Frame 71: 28 bytes on wire (224 bits), 28 bytes captured (224 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.17.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 1
+    [Request in: 70]
+    [Time from request: 0.139632000 seconds]
+    [bInterfaceClass: CDC-Data (0x0a)]
+USB Communications and CDC Control
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  01 03 00 11 00 82 03 01 00 00 00 81               ............
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+     72 0.939284       host                  3.17.2                USB      27     URB_BULK in                                                     17             0x82             0x03
+
+Frame 72: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.17.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 73]
+    [bInterfaceClass: CDC-Data (0x0a)]
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  00 03 00 11 00 82 03 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+     73 2.431917       3.17.2                host                  USBCOM   28     URB_BULK in                                                     17             0x82             0x03
+
+Frame 73: 28 bytes on wire (224 bits), 28 bytes captured (224 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.17.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 1
+    [Request in: 72]
+    [Time from request: 1.492633000 seconds]
+    [bInterfaceClass: CDC-Data (0x0a)]
+USB Communications and CDC Control
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  01 03 00 11 00 82 03 01 00 00 00 02               ............
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+     74 2.432007       host                  3.17.2                USB      27     URB_BULK in                                                     17             0x82             0x03
+
+Frame 74: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.17.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 75]
+    [bInterfaceClass: CDC-Data (0x0a)]
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  00 03 00 11 00 82 03 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+     75 2.506951       3.17.2                host                  USBCOM   28     URB_BULK in                                                     17             0x82             0x03
+
+Frame 75: 28 bytes on wire (224 bits), 28 bytes captured (224 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.17.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 1
+    [Request in: 74]
+    [Time from request: 0.074944000 seconds]
+    [bInterfaceClass: CDC-Data (0x0a)]
+USB Communications and CDC Control
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  01 03 00 11 00 82 03 01 00 00 00 82               ............
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+     76 2.507023       host                  3.17.2                USB      27     URB_BULK in                                                     17             0x82             0x03
+
+Frame 76: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.17.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 77]
+    [bInterfaceClass: CDC-Data (0x0a)]
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  00 03 00 11 00 82 03 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+     77 3.101649       3.17.2                host                  USBCOM   28     URB_BULK in                                                     17             0x82             0x03
+
+Frame 77: 28 bytes on wire (224 bits), 28 bytes captured (224 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.17.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 1
+    [Request in: 76]
+    [Time from request: 0.594626000 seconds]
+    [bInterfaceClass: CDC-Data (0x0a)]
+USB Communications and CDC Control
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  01 03 00 11 00 82 03 01 00 00 00 09               ............
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+     78 3.101742       host                  3.17.2                USB      27     URB_BULK in                                                     17             0x82             0x03
+
+Frame 78: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.17.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 79]
+    [bInterfaceClass: CDC-Data (0x0a)]
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  00 03 00 11 00 82 03 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+     79 3.766074       3.17.2                host                  USBCOM   28     URB_BULK in                                                     17             0x82             0x03
+
+Frame 79: 28 bytes on wire (224 bits), 28 bytes captured (224 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.17.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 1
+    [Request in: 78]
+    [Time from request: 0.664332000 seconds]
+    [bInterfaceClass: CDC-Data (0x0a)]
+USB Communications and CDC Control
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  01 03 00 11 00 82 03 01 00 00 00 09               ............
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+     80 3.766166       host                  3.17.2                USB      27     URB_BULK in                                                     17             0x82             0x03
+
+Frame 80: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.17.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 81]
+    [bInterfaceClass: CDC-Data (0x0a)]
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  00 03 00 11 00 82 03 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+     81 4.716218       3.17.2                host                  USBCOM   28     URB_BULK in                                                     17             0x82             0x03
+
+Frame 81: 28 bytes on wire (224 bits), 28 bytes captured (224 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.17.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 1
+    [Request in: 80]
+    [Time from request: 0.950052000 seconds]
+    [bInterfaceClass: CDC-Data (0x0a)]
+USB Communications and CDC Control
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  01 03 00 11 00 82 03 01 00 00 00 49               ...........I
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+     82 4.716313       host                  3.17.2                USB      27     URB_BULK in                                                     17             0x82             0x03
+
+Frame 82: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.17.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 83]
+    [bInterfaceClass: CDC-Data (0x0a)]
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  00 03 00 11 00 82 03 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+     83 4.937495       3.17.2                host                  USBCOM   28     URB_BULK in                                                     17             0x82             0x03
+
+Frame 83: 28 bytes on wire (224 bits), 28 bytes captured (224 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.17.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 1
+    [Request in: 82]
+    [Time from request: 0.221182000 seconds]
+    [bInterfaceClass: CDC-Data (0x0a)]
+USB Communications and CDC Control
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  01 03 00 11 00 82 03 01 00 00 00 49               ...........I
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+     84 4.937588       host                  3.17.2                USB      27     URB_BULK in                                                     17             0x82             0x03
+
+Frame 84: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.17.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 85]
+    [bInterfaceClass: CDC-Data (0x0a)]
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  00 03 00 11 00 82 03 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+     85 7.781803       3.17.2                host                  USBCOM   28     URB_BULK in                                                     17             0x82             0x03
+
+Frame 85: 28 bytes on wire (224 bits), 28 bytes captured (224 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.17.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 1
+    [Request in: 84]
+    [Time from request: 2.844215000 seconds]
+    [bInterfaceClass: CDC-Data (0x0a)]
+USB Communications and CDC Control
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  01 03 00 11 00 82 03 01 00 00 00 04               ............
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+     86 7.781895       host                  3.17.2                USB      27     URB_BULK in                                                     17             0x82             0x03
+
+Frame 86: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.17.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 87]
+    [bInterfaceClass: CDC-Data (0x0a)]
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  00 03 00 11 00 82 03 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+     87 8.430370       3.17.2                host                  USBCOM   28     URB_BULK in                                                     17             0x82             0x03
+
+Frame 87: 28 bytes on wire (224 bits), 28 bytes captured (224 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.17.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 1
+    [Request in: 86]
+    [Time from request: 0.648475000 seconds]
+    [bInterfaceClass: CDC-Data (0x0a)]
+USB Communications and CDC Control
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  01 03 00 11 00 82 03 01 00 00 00 04               ............
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+     88 8.430463       host                  3.17.2                USB      27     URB_BULK in                                                     17             0x82             0x03
+
+Frame 88: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.17.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 89]
+    [bInterfaceClass: CDC-Data (0x0a)]
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  00 03 00 11 00 82 03 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+     89 9.658647       3.17.2                host                  USBCOM   28     URB_BULK in                                                     17             0x82             0x03
+
+Frame 89: 28 bytes on wire (224 bits), 28 bytes captured (224 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.17.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 1
+    [Request in: 88]
+    [Time from request: 1.228184000 seconds]
+    [bInterfaceClass: CDC-Data (0x0a)]
+USB Communications and CDC Control
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  01 03 00 11 00 82 03 01 00 00 00 44               ...........D
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+     90 9.658738       host                  3.17.2                USB      27     URB_BULK in                                                     17             0x82             0x03
+
+Frame 90: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.17.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 91]
+    [bInterfaceClass: CDC-Data (0x0a)]
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  00 03 00 11 00 82 03 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+     91 10.218621      3.17.2                host                  USBCOM   28     URB_BULK in                                                     17             0x82             0x03
+
+Frame 91: 28 bytes on wire (224 bits), 28 bytes captured (224 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.17.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 1
+    [Request in: 90]
+    [Time from request: 0.559883000 seconds]
+    [bInterfaceClass: CDC-Data (0x0a)]
+USB Communications and CDC Control
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  01 03 00 11 00 82 03 01 00 00 00 44               ...........D
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+     92 10.218659      host                  3.17.2                USB      27     URB_BULK in                                                     17             0x82             0x03
+
+Frame 92: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.17.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 93]
+    [bInterfaceClass: CDC-Data (0x0a)]
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  00 03 00 11 00 82 03 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+     93 12.105745      3.17.2                host                  USBCOM   28     URB_BULK in                                                     17             0x82             0x03
+
+Frame 93: 28 bytes on wire (224 bits), 28 bytes captured (224 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.17.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 1
+    [Request in: 92]
+    [Time from request: 1.887086000 seconds]
+    [bInterfaceClass: CDC-Data (0x0a)]
+USB Communications and CDC Control
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  01 03 00 11 00 82 03 01 00 00 00 22               ..........."
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+     94 12.105841      host                  3.17.2                USB      27     URB_BULK in                                                     17             0x82             0x03
+
+Frame 94: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.17.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 95]
+    [bInterfaceClass: CDC-Data (0x0a)]
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  00 03 00 11 00 82 03 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+     95 12.218464      3.17.2                host                  USBCOM   28     URB_BULK in                                                     17             0x82             0x03
+
+Frame 95: 28 bytes on wire (224 bits), 28 bytes captured (224 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.17.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 1
+    [Request in: 94]
+    [Time from request: 0.112623000 seconds]
+    [bInterfaceClass: CDC-Data (0x0a)]
+USB Communications and CDC Control
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  01 03 00 11 00 82 03 01 00 00 00 a2               ............
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+     96 12.218542      host                  3.17.2                USB      27     URB_BULK in                                                     17             0x82             0x03
+
+Frame 96: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.17.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 97]
+    [bInterfaceClass: CDC-Data (0x0a)]
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  00 03 00 11 00 82 03 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+     97 13.420048      3.17.2                host                  USBCOM   28     URB_BULK in                                                     17             0x82             0x03
+
+Frame 97: 28 bytes on wire (224 bits), 28 bytes captured (224 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.17.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 1
+    [Request in: 96]
+    [Time from request: 1.201506000 seconds]
+    [bInterfaceClass: CDC-Data (0x0a)]
+USB Communications and CDC Control
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  01 03 00 11 00 82 03 01 00 00 00 23               ...........#
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+     98 13.420141      host                  3.17.2                USB      27     URB_BULK in                                                     17             0x82             0x03
+
+Frame 98: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.17.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 99]
+    [bInterfaceClass: CDC-Data (0x0a)]
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  00 03 00 11 00 82 03 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+     99 13.549267      3.17.2                host                  USBCOM   28     URB_BULK in                                                     17             0x82             0x03
+
+Frame 99: 28 bytes on wire (224 bits), 28 bytes captured (224 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.17.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 1
+    [Request in: 98]
+    [Time from request: 0.129126000 seconds]
+    [bInterfaceClass: CDC-Data (0x0a)]
+USB Communications and CDC Control
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  01 03 00 11 00 82 03 01 00 00 00 a3               ............
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+    100 13.549356      host                  3.17.2                USB      27     URB_BULK in                                                     17             0x82             0x03
+
+Frame 100: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.17.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 101]
+    [bInterfaceClass: CDC-Data (0x0a)]
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  00 03 00 11 00 82 03 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+    101 16.787146      3.17.2                host                  USBCOM   28     URB_BULK in                                                     17             0x82             0x03
+
+Frame 101: 28 bytes on wire (224 bits), 28 bytes captured (224 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.17.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 1
+    [Request in: 100]
+    [Time from request: 3.237790000 seconds]
+    [bInterfaceClass: CDC-Data (0x0a)]
+USB Communications and CDC Control
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  01 03 00 11 00 82 03 01 00 00 00 38               ...........8
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+    102 16.787238      host                  3.17.2                USB      27     URB_BULK in                                                     17             0x82             0x03
+
+Frame 102: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.17.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 103]
+    [bInterfaceClass: CDC-Data (0x0a)]
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  00 03 00 11 00 82 03 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+    103 16.968024      3.17.2                host                  USBCOM   28     URB_BULK in                                                     17             0x82             0x03
+
+Frame 103: 28 bytes on wire (224 bits), 28 bytes captured (224 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.17.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 1
+    [Request in: 102]
+    [Time from request: 0.180786000 seconds]
+    [bInterfaceClass: CDC-Data (0x0a)]
+USB Communications and CDC Control
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  01 03 00 11 00 82 03 01 00 00 00 b8               ............
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+    104 16.968057      host                  3.17.2                USB      27     URB_BULK in                                                     17             0x82             0x03
+
+Frame 104: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.17.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 105]
+    [bInterfaceClass: CDC-Data (0x0a)]
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  00 03 00 11 00 82 03 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+    105 19.294117      3.17.2                host                  USBCOM   28     URB_BULK in                                                     17             0x82             0x03
+
+Frame 105: 28 bytes on wire (224 bits), 28 bytes captured (224 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.17.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 1
+    [Request in: 104]
+    [Time from request: 2.326060000 seconds]
+    [bInterfaceClass: CDC-Data (0x0a)]
+USB Communications and CDC Control
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  01 03 00 11 00 82 03 01 00 00 00 0f               ............
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+    106 19.294209      host                  3.17.2                USB      27     URB_BULK in                                                     17             0x82             0x03
+
+Frame 106: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.17.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 107]
+    [bInterfaceClass: CDC-Data (0x0a)]
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  00 03 00 11 00 82 03 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+    107 21.409293      3.17.2                host                  USBCOM   28     URB_BULK in                                                     17             0x82             0x03
+
+Frame 107: 28 bytes on wire (224 bits), 28 bytes captured (224 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.17.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 1
+    [Request in: 106]
+    [Time from request: 2.115084000 seconds]
+    [bInterfaceClass: CDC-Data (0x0a)]
+USB Communications and CDC Control
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  01 03 00 11 00 82 03 01 00 00 00 4f               ...........O
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+    108 21.409384      host                  3.17.2                USB      27     URB_BULK in                                                     17             0x82             0x03
+
+Frame 108: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.17.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 109]
+    [bInterfaceClass: CDC-Data (0x0a)]
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  00 03 00 11 00 82 03 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+    109 23.923469      3.17.2                host                  USBCOM   28     URB_BULK in                                                     17             0x82             0x03
+
+Frame 109: 28 bytes on wire (224 bits), 28 bytes captured (224 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.17.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 1
+    [Request in: 108]
+    [Time from request: 2.514085000 seconds]
+    [bInterfaceClass: CDC-Data (0x0a)]
+USB Communications and CDC Control
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  01 03 00 11 00 82 03 01 00 00 00 2a               ...........*
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+    110 23.923516      host                  3.17.2                USB      27     URB_BULK in                                                     17             0x82             0x03
+
+Frame 110: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.17.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 111]
+    [bInterfaceClass: CDC-Data (0x0a)]
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  00 03 00 11 00 82 03 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+    111 24.058811      3.17.2                host                  USBCOM   28     URB_BULK in                                                     17             0x82             0x03
+
+Frame 111: 28 bytes on wire (224 bits), 28 bytes captured (224 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.17.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 1
+    [Request in: 110]
+    [Time from request: 0.135295000 seconds]
+    [bInterfaceClass: CDC-Data (0x0a)]
+USB Communications and CDC Control
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  01 03 00 11 00 82 03 01 00 00 00 aa               ............
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+    112 24.058878      host                  3.17.2                USB      27     URB_BULK in                                                     17             0x82             0x03
+
+Frame 112: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.17.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 113]
+    [bInterfaceClass: CDC-Data (0x0a)]
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  00 03 00 11 00 82 03 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+    113 26.133318      3.17.2                host                  USBCOM   28     URB_BULK in                                                     17             0x82             0x03
+
+Frame 113: 28 bytes on wire (224 bits), 28 bytes captured (224 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.17.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 1
+    [Request in: 112]
+    [Time from request: 2.074440000 seconds]
+    [bInterfaceClass: CDC-Data (0x0a)]
+USB Communications and CDC Control
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  01 03 00 11 00 82 03 01 00 00 00 12               ............
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+    114 26.133411      host                  3.17.2                USB      27     URB_BULK in                                                     17             0x82             0x03
+
+Frame 114: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.17.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 115]
+    [bInterfaceClass: CDC-Data (0x0a)]
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  00 03 00 11 00 82 03 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+    115 26.239537      3.17.2                host                  USBCOM   28     URB_BULK in                                                     17             0x82             0x03
+
+Frame 115: 28 bytes on wire (224 bits), 28 bytes captured (224 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.17.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 1
+    [Request in: 114]
+    [Time from request: 0.106126000 seconds]
+    [bInterfaceClass: CDC-Data (0x0a)]
+USB Communications and CDC Control
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  01 03 00 11 00 82 03 01 00 00 00 92               ............
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+    116 26.239611      host                  3.17.2                USB      27     URB_BULK in                                                     17             0x82             0x03
+
+Frame 116: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.17.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 117]
+    [bInterfaceClass: CDC-Data (0x0a)]
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  00 03 00 11 00 82 03 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+    117 27.595125      3.17.2                host                  USBCOM   28     URB_BULK in                                                     17             0x82             0x03
+
+Frame 117: 28 bytes on wire (224 bits), 28 bytes captured (224 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.17.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 1
+    [Request in: 116]
+    [Time from request: 1.355514000 seconds]
+    [bInterfaceClass: CDC-Data (0x0a)]
+USB Communications and CDC Control
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  01 03 00 11 00 82 03 01 00 00 00 10               ............
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+    118 27.595216      host                  3.17.2                USB      27     URB_BULK in                                                     17             0x82             0x03
+
+Frame 118: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.17.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 119]
+    [bInterfaceClass: CDC-Data (0x0a)]
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  00 03 00 11 00 82 03 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+    119 27.681462      3.17.2                host                  USBCOM   28     URB_BULK in                                                     17             0x82             0x03
+
+Frame 119: 28 bytes on wire (224 bits), 28 bytes captured (224 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.17.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 1
+    [Request in: 118]
+    [Time from request: 0.086246000 seconds]
+    [bInterfaceClass: CDC-Data (0x0a)]
+USB Communications and CDC Control
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  01 03 00 11 00 82 03 01 00 00 00 90               ............
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+    120 27.681537      host                  3.17.2                USB      27     URB_BULK in                                                     17             0x82             0x03
+
+Frame 120: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.17.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 121]
+    [bInterfaceClass: CDC-Data (0x0a)]
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  00 03 00 11 00 82 03 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+    121 29.554266      3.17.2                host                  USBCOM   28     URB_BULK in                                                     17             0x82             0x03
+
+Frame 121: 28 bytes on wire (224 bits), 28 bytes captured (224 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.17.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 1
+    [Request in: 120]
+    [Time from request: 1.872729000 seconds]
+    [bInterfaceClass: CDC-Data (0x0a)]
+USB Communications and CDC Control
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  01 03 00 11 00 82 03 01 00 00 00 13               ............
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+    122 29.554358      host                  3.17.2                USB      27     URB_BULK in                                                     17             0x82             0x03
+
+Frame 122: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.17.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 123]
+    [bInterfaceClass: CDC-Data (0x0a)]
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  00 03 00 11 00 82 03 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+    123 29.690618      3.17.2                host                  USBCOM   28     URB_BULK in                                                     17             0x82             0x03
+
+Frame 123: 28 bytes on wire (224 bits), 28 bytes captured (224 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.17.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 1
+    [Request in: 122]
+    [Time from request: 0.136260000 seconds]
+    [bInterfaceClass: CDC-Data (0x0a)]
+USB Communications and CDC Control
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  01 03 00 11 00 82 03 01 00 00 00 93               ............
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+    124 29.690706      host                  3.17.2                USB      27     URB_BULK in                                                     17             0x82             0x03
+
+Frame 124: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.17.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 125]
+    [bInterfaceClass: CDC-Data (0x0a)]
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  00 03 00 11 00 82 03 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+    125 30.440789      3.17.2                host                  USBCOM   28     URB_BULK in                                                     17             0x82             0x03
+
+Frame 125: 28 bytes on wire (224 bits), 28 bytes captured (224 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.17.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 1
+    [Request in: 124]
+    [Time from request: 0.750083000 seconds]
+    [bInterfaceClass: CDC-Data (0x0a)]
+USB Communications and CDC Control
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  01 03 00 11 00 82 03 01 00 00 00 11               ............
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+    126 30.440883      host                  3.17.2                USB      27     URB_BULK in                                                     17             0x82             0x03
+
+Frame 126: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.17.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 127]
+    [bInterfaceClass: CDC-Data (0x0a)]
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  00 03 00 11 00 82 03 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+    127 30.579614      3.17.2                host                  USBCOM   28     URB_BULK in                                                     17             0x82             0x03
+
+Frame 127: 28 bytes on wire (224 bits), 28 bytes captured (224 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.17.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 1
+    [Request in: 126]
+    [Time from request: 0.138731000 seconds]
+    [bInterfaceClass: CDC-Data (0x0a)]
+USB Communications and CDC Control
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  01 03 00 11 00 82 03 01 00 00 00 91               ............
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+    128 30.579659      host                  3.17.2                USB      27     URB_BULK in                                                     17             0x82             0x03
+
+Frame 128: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.17.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 129]
+    [bInterfaceClass: CDC-Data (0x0a)]
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  00 03 00 11 00 82 03 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+    129 31.239406      3.17.2                host                  USBCOM   28     URB_BULK in                                                     17             0x82             0x03
+
+Frame 129: 28 bytes on wire (224 bits), 28 bytes captured (224 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.17.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 1
+    [Request in: 128]
+    [Time from request: 0.659747000 seconds]
+    [bInterfaceClass: CDC-Data (0x0a)]
+USB Communications and CDC Control
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  01 03 00 11 00 82 03 01 00 00 00 00               ............
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+    130 31.239601      host                  3.17.2                USB      27     URB_BULK in                                                     17             0x82             0x03
+
+Frame 130: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.17.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 131]
+    [bInterfaceClass: CDC-Data (0x0a)]
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  00 03 00 11 00 82 03 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+    131 31.353912      3.17.2                host                  USBCOM   28     URB_BULK in                                                     17             0x82             0x03
+
+Frame 131: 28 bytes on wire (224 bits), 28 bytes captured (224 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.17.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 1
+    [Request in: 130]
+    [Time from request: 0.114311000 seconds]
+    [bInterfaceClass: CDC-Data (0x0a)]
+USB Communications and CDC Control
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  01 03 00 11 00 82 03 01 00 00 00 80               ............
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+    132 31.353994      host                  3.17.2                USB      27     URB_BULK in                                                     17             0x82             0x03
+
+Frame 132: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.17.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 133]
+    [bInterfaceClass: CDC-Data (0x0a)]
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  00 03 00 11 00 82 03 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+    133 32.158641      3.17.2                host                  USBCOM   28     URB_BULK in                                                     17             0x82             0x03
+
+Frame 133: 28 bytes on wire (224 bits), 28 bytes captured (224 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.17.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 1
+    [Request in: 132]
+    [Time from request: 0.804647000 seconds]
+    [bInterfaceClass: CDC-Data (0x0a)]
+USB Communications and CDC Control
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  01 03 00 11 00 82 03 01 00 00 00 03               ............
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+    134 32.158732      host                  3.17.2                USB      27     URB_BULK in                                                     17             0x82             0x03
+
+Frame 134: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.17.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 135]
+    [bInterfaceClass: CDC-Data (0x0a)]
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  00 03 00 11 00 82 03 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+    135 32.287404      3.17.2                host                  USBCOM   28     URB_BULK in                                                     17             0x82             0x03
+
+Frame 135: 28 bytes on wire (224 bits), 28 bytes captured (224 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: 3.17.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 1
+    [Request in: 134]
+    [Time from request: 0.128672000 seconds]
+    [bInterfaceClass: CDC-Data (0x0a)]
+USB Communications and CDC Control
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  01 03 00 11 00 82 03 01 00 00 00 83               ............
+
+No.     Time           Source                Destination           Protocol Length Info                                                            Device Address Endpoint Address Transfer Type
+    136 32.287469      host                  3.17.2                USB      27     URB_BULK in                                                     17             0x82             0x03
+
+Frame 136: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap3, id 0
+USB URB
+    [Source: host]
+    [Destination: 3.17.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffe7031c157050
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+    URB bus id: 3
+    Device address: 17
+    Endpoint: 0x82, Direction: IN
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [bInterfaceClass: CDC-Data (0x0a)]
+
+0000  1b 00 50 70 15 1c 03 e7 ff ff 00 00 00 00 09 00   ..Pp............
+0010  00 03 00 11 00 82 03 00 00 00 00                  ...........
